@@ -209,7 +209,7 @@ func (in IN) Build(builder Builder) {
 
 		fallthrough
 	default:
-		builder.WriteString(" IN (")
+		builder.WriteString(" IN ( VALUES")
 		builder.AddVar(builder, in.Values...)
 		builder.WriteByte(')')
 	}
