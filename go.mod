@@ -1,4 +1,4 @@
-module gorm.io/gorm
+module github.com/astiusa/gorm
 
 go 1.14
 
